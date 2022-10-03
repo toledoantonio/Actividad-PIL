@@ -1,0 +1,28 @@
+.pie-pagina {
+    background-color: #a1d7e8;
+    font-size: $medida-principal;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: $medida-secundaria;
+    padding: $medida-principal;
+    box-sizing: border-box;
+
+    .logofooter {
+        width: 25px;
+
+    }
+
+    .fondo {
+        width: 800px;
+        height: 700px;
+        background-image: url(../img/tip2.jpeg);
+        background-repeat: space;
+        background-size: cover;
+        background-position: center;
+        opacity: 85%;
+
+    }
+
+
+}

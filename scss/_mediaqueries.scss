@@ -1,0 +1,127 @@
+@media only screen and (min-width: 768px) {
+    .main {
+        .band {
+            grid-template-columns: 1fr 1fr;
+        }
+
+    }
+
+
+
+    header {
+        .navbar {
+            .container-fluid {
+
+                .redesHeader {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+
+    /* MQ MAIN CINE*/
+
+    .movie_header {
+        width: 60%;
+    }
+
+    .movie_desc {
+        width: 50%;
+    }
+
+    .info_section {
+        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    }
+
+    .blur_back {
+        width: 80%;
+        background-position: -100% 10% !important;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    main {
+
+        .band {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "uno uno dos tres"
+                "uno uno cuatro cinco"
+                "uno uno seis siete";
+
+            .item-1 {
+                grid-area: uno;
+                height: 7rem;
+            }
+
+            .item-2 {
+                grid-area: dos;
+            }
+
+            .item-3 {
+                grid-area: tres;
+            }
+
+            .item-4 {
+                grid-area: cuatro;
+            }
+
+            .item-5 {
+                grid-area: cinco;
+            }
+
+            .item-6 {
+                grid-area: seis;
+            }
+
+            .item-7 {
+                grid-area: siete;
+            }
+
+
+
+
+
+        }
+
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .movie_card {
+        width: 95%;
+        margin: 70px auto;
+        min-height: 350px;
+        height: auto;
+    }
+
+    .blur_back {
+        width: 100%;
+        background-position: 50% 50% !important;
+    }
+
+    .movie_header {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    .movie_desc {
+        width: 100%;
+    }
+
+    .info_section {
+        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+        display: inline-grid;
+    }
+}

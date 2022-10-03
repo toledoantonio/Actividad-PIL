@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Square+Peg&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f1f3f3;
+}
+
+.main {
+    background-color: #f1f3f3;
+    display: flex;
+    justify-content: center;
+}
+
+
+header nav {
+    background: #a1d7e8;
+}
+
+.encabezado {
+    background-color: rgb(161, 215, 232);
+}
+
+.nav-background {
+    background-image: linear-gradient(132.6deg, rgba(71, 139, 214, 1) 23.3%, rgba(37, 216, 211, 1) 84.7%);
+
+}
+
+.navbar ul li:hover {
+
+
+    background-image: linear-gradient(358.7deg, rgba(42, 136, 157, 1) 1.7%, rgba(122, 197, 214, 1) 51.1%, rgba(211, 232, 242, 1) 95.5%);
+    transition: 0.5s;
+    border-radius: 1rem;
+}
+
+.logoig {
+    margin: 20px;
+    align-items: center;
+}
+
+.logotw {
+    margin: 20px;
+    align-items: center;
+}
+
+
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+
+.band {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .band {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .band {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+
+
+.card {
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in;
+}
+
+
+
+.card:hover {
+    top: -2px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card article {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card h1 {
+    font-size: 20px;
+    margin: 0;
+    color: #333;
+}
+
+.card p {
+    line-height: 1.4;
+}
+
+.card span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    margin: 2em 0 0 0;
+}
+
+.card .thumb {
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card article {
+    padding: 20px;
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    flex: 1;
+    line-height: 1.4;
+}
+
+#fondo {
+    width: 800px;
+    height: 700px;
+    background-image: url(../img/tip2.jpeg);
+    background-repeat: space;
+    background-size: cover;
+    background-position: center;
+    opacity: 85%;
+}
+
+.pie-pagina {
+
+    background-color: #a1d7e8;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}

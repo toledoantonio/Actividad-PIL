@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "utilities/variables";
+@import "utilities/mixin";
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";
+
+body {
+    background-color: $color-principal;
+}
